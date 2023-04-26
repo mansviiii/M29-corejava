@@ -1,4 +1,4 @@
-package UserInputDemo;
+package org.tnsif.UserInputDemo;
 import java.util.Scanner;
 
 public class 4 {
