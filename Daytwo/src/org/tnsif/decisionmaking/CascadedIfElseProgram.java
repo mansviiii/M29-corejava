@@ -1,4 +1,4 @@
-4package org.tnsif.decisionmaking;
+package org.tnsif.decisionmaking;
 import java.util.Scanner;
 public class CascadedIfElseProgram {
 
