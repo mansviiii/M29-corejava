@@ -2,8 +2,8 @@ package org.tnsif.excentiondemo;
 
 import java.util.Scanner;
 
-public class 45
-{
+public class ArithamaticException{
+
 
 	public static void main(String[] args) {
 		Scanner s =new Scanner(System.in);
