@@ -7,12 +7,10 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-import org.stjohn.set.Product;
-
 public class TreeMapDemo {
 
 	public static void main(String[] args) {
-		Comparator<Product> comp = (p1, p2) -> p1.getName().compareTo(p2.getName());
+		Comparator<Product> comp = (p1, p2) -> ((String) p1.getName()).compareTo(p2.getName());
 		TreeMap<Product, String> productMap = new TreeMap<Product, String>(comp);
 		productMap.put(new Product(101, "Textbook", 670), "Nashik");
 		productMap.put(new Product(106, "Notebook", 120), "Pune");
